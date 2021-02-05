@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/CookbuddyTheme"
+    tools:context=".activities.RegisterUser">
+
+    <!-- Cookbuddy Logo -->
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <!-- The name of the user -->
+    <EditText
+        android:id="@+id/userName"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="40dp"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <!-- The email address of the user -->
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:maxLines="1" />
+
+    <!-- The password of the user -->
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <!-- Confirm the password of the user -->
+    <EditText
+        android:id="@+id/userPasswordConfirm"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <!-- The form submit button for a new user -->
+    <Button
+        android:id="@+id/submitInfo"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:elevation="10dp"
+        android:text="Register"/>
+
+    <!-- Redirects to existing user sign in page -->
+    <Button
+        android:id="@+id/signInPage"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:text="Sign In"/>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReceiveRecipes">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name of recipe to get:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/receivedIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:ems="10"
+        android:text="ingredients" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tags:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/receivedTags"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="tags"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonGetRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Recipe" />
+
+    <Button
+        android:id="@+id/buttonAddNewRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new recipe" />
+</LinearLayout>

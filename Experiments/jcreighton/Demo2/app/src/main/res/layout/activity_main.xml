@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:text="Recipe Name:"
+        android:textAlignment="textStart"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/rName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipe Ingredients:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/rIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Ingredients" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Recipe Tags:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/rTags"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Tags" />
+
+    <Button
+        android:id="@+id/buttonSubmitRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Recipe" />
+
+    <Button
+        android:id="@+id/buttonViewRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Recipes" />
+</LinearLayout>

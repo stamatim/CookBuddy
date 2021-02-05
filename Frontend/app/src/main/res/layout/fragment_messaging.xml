@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:fontFamily="sans-serif-condensed"
+        android:scrollbars="vertical"
+        android:text="Chat with other Cook Buddy users!\n"
+        android:textAlignment="viewStart"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Connect" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Message"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/bt2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginLeft="22dp"
+            android:text="Send"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

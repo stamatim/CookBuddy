@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name ="android:colorBackground">@color/cardview_light_background</item>
+    </style>
+
+    <!-- Cookbuddy Theme-->
+    <style name="CookbuddyTheme" parent="AppTheme">
+        <item name="colorPrimary">@android:color/holo_red_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="colorAccent">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="CookbuddyTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="CookbuddyTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

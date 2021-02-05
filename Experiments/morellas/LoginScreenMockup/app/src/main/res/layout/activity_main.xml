@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/CookBuddyLogo"
+        android:layout_width="198dp"
+        android:layout_height="158dp"
+        android:layout_above="@+id/CookBuddyText"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/chefhat" />
+
+    <TextView
+        android:id="@+id/CookBuddyText"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="serif-monospace"
+        android:text="CookBuddy"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="175dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:background="@color/colorAccent"
+        android:text="Sign up"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/LogInButton"
+        android:layout_width="175dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:background="#D9D9D9"
+        android:text="Log in"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp" />
+
+
+
+
+</RelativeLayout>

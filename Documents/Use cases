@@ -1,0 +1,29 @@
+Use Cases for an Admin:
+Create Recipe
+View recipes
+Search for recipes
+log in
+edit recipes
+leave comments
+delete recipes
+delete user
+
+Use Cases for a Premium User:
+Create Recipe
+View recipes
+Search for recipes
+log in
+edit recipes
+leave comments
+delete recipes
+promote recipes
+
+Use Cases for a Standard User:
+Create Recipe
+View recipes
+Search for recipes
+log in
+edit recipes
+leave comments
+delete recipes
+purchase premium access

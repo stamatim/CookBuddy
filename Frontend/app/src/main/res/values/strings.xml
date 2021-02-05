@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">CookBuddy</string>
+    <string name="title_activity_user_login">Sign in</string>
+
+    <!-- Navigation drawer actions -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_view_recipes">View Recipes</string>
+    <string name="nav_messaging">Messaging</string>
+    <string name="nav_shopping_list">Shopping List</string>
+    <string name="nav_grocery">Nearby Stores</string>
+    <string name="nav_profile">Profile</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <!-- Navigation header -->
+    <string name="nav_header_title">Cook Buddy</string>
+    <string name="nav_header_subtitle">useremail@domainname.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="exit_button">exitButton</string>
+    <string name="you_must_enter_a_username_to_use_global_messaging">You must enter a username to use Global Messaging*:</string>
+    <string name="username">Username</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome to Cook Buddy! Use the menu in the top left to navigate through the app.</string>
+
+    <!--View Recipes Strings -->
+    <string name="recipeName">Insert content here</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Add Recipe Strings -->
+    <string name="addRecipeName">Enter Name of Recipe:</string>
+    <string name="addRecipeIngredients">Enter Recipe Ingredients:</string>
+    <string name="addRecipeInstructions">Enter Cooking Instructions:</string>
+    <string name="hintRecipeName">e.g. Fettuccine Alfredo Pasta</string>
+    <string name="hintRecipeIngredients">e.g. 2 cups heavy cream, ground black pepper</string>
+    <string name="hintRecipeInstructions">e.g. 1. Enter first step 2. Enter second step 3. Enter third step 4. Enter fourth step</string>
+    <string name="btnAddRecipe">Add Recipe</string>
+
+
+
+</resources>
